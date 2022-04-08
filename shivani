@@ -1,0 +1,10 @@
+spl = '''!()-[]{};:'"\,<>./?@#$%^&*_'''
+
+string = input("Enter a string: ")
+
+nospl = ""
+for char in string:
+    if char not in spl:
+        no_punct = nospl + char
+
+print(nospl)
