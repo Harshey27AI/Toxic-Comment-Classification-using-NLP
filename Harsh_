@@ -1,0 +1,5 @@
+import re
+
+#removing specail characters
+a = "sdjfnsl sdnfs @ glk 232"
+re.sub('[^A-Za-z0-9]+', '', a)
