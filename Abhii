@@ -1,0 +1,4 @@
+import re
+string = "nkd#@#[]]]%rain1 ine sahnle2"
+x= re.sub('\w+',"",string)
+print (x)
